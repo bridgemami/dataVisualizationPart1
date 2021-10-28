@@ -36,7 +36,7 @@ d.fillStyle="red";
 //to starting
 d.beginPath();
 //x center, y center, radius, start angle,end angle and not clockwise(true or false)
-d.arc(150, 50, 25, Math.PI*.5, Math.PI*1.5, false);
+d.arc(150, 50, 25, Math.PI*.6, Math.PI*1.4, false);
 d.fill();
 //to end
 d.closePath();
@@ -45,7 +45,7 @@ d.fillStyle="yellow";
 //to starting
 d.beginPath();
 //x center, y center, radius, start angle,end angle and not clockwise(true or false)
-d.arc(180, 250, 50, 0, 2* Math.PI, true);
+d.arc(180, 250, 20, 0, 2* Math.PI, true);
 d.fill();
 //to end
 d.closePath();
